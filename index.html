@@ -120,9 +120,22 @@
             </div>
             <div class="home__data">
               <h1 class="home__title">Hi, I'm Tasnif Pronoy</h1>
+
+              <!--this is type effect js code -->
               <h3 class="home__subtitle">
-                Learner &#127861; | Programmer &#128187; | Dreamer &#129412; | Pluviophile &#9748;
+              <span class="auto-type"></span>
               </h3>
+              <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+              <script>
+                  var typed = new Typed(".auto-type", {
+                    strings: ["&#127861;Learner ", "&#128187;Programmer ", "&#128150; Dreamer ", "&#9748; Pluviophile "],
+                    typeSpeed: 300,
+                    backspeed: 150,
+                    loop: true
+                  })
+              </script>
+
+              
               <p class="home__description">
                 <br>
                 A third-year undergraduate engineering student at
